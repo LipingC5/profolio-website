@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Shrikhand&display=swap");
+html {
+  min-height: 100%;
+  position: relative;
+  background-image: url("image/light-color.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  color: #414141;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.8rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h1,h2 {
+  font-family: "Shrikhand", cursive;
+  font-weight: normal;
+}
+.about-subtitle{
+font-weight: bold;
+margin-top:1em;
+font-size: 1.2rem;
+}
+
+h4,h5 {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 70%;
+}
+.header-img {
+  max-width: 300px;
+  box-shadow: 5px 5px 15px rgb(54, 54, 54);
+  border-radius: 10px;
+}
+.project-img {
+  max-width: 350px;
+  max-height:180px ;
+  border-radius: 10px;
+  box-shadow: 4px 8px 5px rgb(54, 54, 54);
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+nav a:hover, nav a:focus{
+  color:blue;
+}
+
+nav li {
+  margin-left: 1.5em;
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+}
+
+.profile-picture {
+  width: 70%;
+  border-radius: 50%;
+  box-shadow: 5px 10px 10px rgb(54, 54, 54);
+}
+.about,.skills{
+  padding: 0 5em;
+}
+section {
+  margin-top: 10px;
+}
+
+.skills {
+  box-shadow: 5px 10px 15px rgb(54, 54, 54); 
+  padding: 4em 10em;
+  border-radius: 4px;
+}
+.projects__project{
+  /* border: 2px red solid; */
+  align-items: center;
+}
+
+.project__title {
+  align-self: center;
+  margin-top: 10px;
+}
+.project__skills,.project__description {
+  margin: 10px;
+}
+
+.resume-img {
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 5px 10px 15px rgb(54, 54, 54); 
+}
+
+.image-icon {
+  width: 50px;
+  margin: -20px 20px 20px 20px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgb(54, 54, 54);
+}
+
+button {
+  width: 25%;
+  background-color: rgb(203, 255, 213, 0.5);
+  border-radius: 10px;
+  align-self: center;
+}
+button a{
+  text-decoration:none;
+}
+
+figure img{
+  width: 100%;
+}
